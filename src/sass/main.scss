@@ -1,0 +1,67 @@
+///brake point 1300px
+@mixin media-desktop {
+  @media screen and (min-width: break-point(breake-point-desktop)) {
+    @content;
+  }
+}
+
+///******brake points 1200px ******///
+@mixin media-betweenTD {
+  @media screen and (max-width: break-point(break-point-betweenTD)) {
+    @content;
+  }
+}
+///******brake points 800px ******///
+@mixin media-tablet {
+  @media screen and (max-width: break-point(break-point-tablet)) {
+    @content;
+  }
+}
+//+++++++++++ brake point 600
+@mixin media-medium {
+  @media screen and (max-width: break-point(break-point-medium)) {
+    @content;
+  }
+}
+//+++++++++++ brake point 500
+@mixin media-mediumsmall {
+  @media screen and (max-width: break-point(break-point-medium)) {
+    @content;
+  }
+}
+//+++++++++++ brake point 400
+@mixin media-small {
+  @media screen and (max-width: break-point(break-point-small)) {
+    @content;
+  }
+}
+
+//+++++++++++ brake point 360
+@mixin media-supersmall {
+  @media screen and (max-width: break-point(break-point-small)) {
+    @content;
+  }
+}
+//*_*_*_*_*_*_*_**_**_*_*_*_*_*_*_*_*_*_*_*_**_*_**_**__**_*__*_
+
+@import "1.reset";
+@import "2.variables";
+@import "3.utilities";
+@import "4.navigation";
+@import "5.landingPage";
+/* Placeholders */
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+%sec-padding {
+  padding: 6vh 4vw;
+}

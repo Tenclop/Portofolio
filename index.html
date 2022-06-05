@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--     font-family: 'BioRhyme', serif; small text
+
+    font-family: 'Sora', sans-serif; -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header" id="Home">
+      <!--hamburger lines container-->
+      <div class="header__menu">
+        <div class="header__menu--line"></div>
+      </div>
+      <nav class="header__nav" id="nav">
+        <div class="header__nav--container">
+          <a href="#Home" class="header__nav--container--logo scroll-link">
+            <img
+              id="img-logo"
+              src="./src/assets/Logo/green-logo.webp"
+              alt="logo"
+            />
+          </a>
+          <p>Web Developer</p>
+        </div>
+
+        <div class="header__nav--links-container">
+          <ul class="header__nav--links">
+            <li class="header__nav--links__item">
+              <a
+                href="#About"
+                class="header__nav--links__item-a scroll-link"
+                data-text="About"
+                ><span class="numbers">01.</span>About</a
+              >
+            </li>
+            <li class="header__nav--links__item">
+              <a
+                href="#Projects"
+                class="header__nav--links__item-a scroll-link"
+                data-text="Projects"
+                ><span class="numbers">02.</span>Projects</a
+              >
+            </li>
+            <li class="header__nav--links__item">
+              <a
+                href="#Contact"
+                class="header__nav--links__item-a scroll-link"
+                data-text="Contact"
+                ><span class="numbers">03.</span>Contact</a
+              >
+            </li>
+
+            <div class="header__nav--links__toggle-container">
+              <a href="https://github.com/tenclop"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <input
+                type="checkbox"
+                class="toggle-box"
+                id="toggle"
+                name="theme"
+              />
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="container--description panel">
+        <!-- Header -->
+
+        <div class="panel--blobs__1">
+          <svg
+            viewBox="0 0 179 173"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="blob"
+              d="M110.772 40.5361C117.751 48.6579 124.092 56.8393 132.561 63.3928C147.093 74.6377 179.512 74.3512 178.151 92.6751C176.715 112.007 139.921 105.143 128.308 120.665C119.162 132.889 135.263 155.476 123.703 165.449C112.964 174.713 96.3177 159.337 82.1798 160.458C66.7118 161.684 53.15 175.45 37.9678 172.246C22.1425 168.907 2.42292 159.169 0.174455 143.152C-2.40841 124.754 24.501 113.872 27.1925 95.4892C29.219 81.6477 11.6392 70.7637 12.8139 56.8242C14.1135 41.4028 21.9901 26.258 33.8631 16.3314C46.2918 5.94017 63.76 -3.55305 79.2131 1.31034C95.4982 6.43557 99.6452 27.5875 110.772 40.5361Z"
+              fill="#19E7C8"
+              fill-opacity="0.39"
+            />
+          </svg>
+        </div>
+        <div class="panel--blobs__2 blob">
+          <svg
+            viewBox="0 0 113 103"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M71.6042 15.891C83.5252 21.9439 93.303 29.5864 99.9609 39.924C107.596 51.7794 116.753 64.956 111.397 77.6766C105.931 90.6573 89.6135 97.9209 73.9623 101.666C60.125 104.977 45.9009 101.706 32.9279 96.4524C20.8755 91.5713 10.7964 84.0593 5.15301 73.7988C-0.724122 63.1133 -1.18826 51.4047 1.82043 39.8945C5.61181 25.3898 7.83562 6.9819 24.0788 1.39476C40.2967 -4.18368 56.59 8.26752 71.6042 15.891Z"
+              fill="#19E7C8"
+              fill-opacity="0.32"
+            />
+          </svg>
+        </div>
+        <div class="panel--blobs__3 blob">
+          <svg
+            viewBox="0 0 164 135"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M93.2618 6.19425C105.537 2.51882 118.482 -2.56729 130.632 1.50474C144.691 6.21659 165.402 15.0857 163.76 29.822C161.801 47.4136 127.103 45.7177 123.771 63.1018C119.712 84.2812 154.477 102.625 146.008 122.458C139.301 138.164 110.065 137.727 96.1053 127.888C79.8658 116.443 92.7669 83.6602 75.9502 73.0808C62.2292 64.4488 45.7396 91.097 30.2139 86.4356C14.9731 81.8597 2.54395 66.1654 0.40006 50.3975C-1.75469 34.5499 4.82196 13.8478 19.472 7.43148C36.1949 0.107251 53.593 19.4116 71.847 19.1056C80.3534 18.9629 85.1116 8.63448 93.2618 6.19425Z"
+              fill="#19E7C8"
+              fill-opacity="0.39"
+            />
+          </svg>
+        </div>
+        <div class="panel--blobs__line1">
+          <svg viewBox="0 0 138 145" fill="" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_23_5)">
+              <path
+                fill-rule=""
+                clip-rule=""
+                d="M37.4992 94.2624C37.5622 93.1577 37.6113 92.2055 37.6348 91.702C37.7707 88.6379 38.9728 81.1023 38.1318 75.5042C37.4915 71.2331 35.6636 68.0737 31.8589 67.9382C28.4008 67.8151 25.5976 70.7033 23.5621 75.2211C19.1813 84.9445 18.1111 102.169 19.0467 107.508C19.1491 108.091 19.6688 108.49 20.21 108.4C20.7488 108.31 21.1044 107.767 21.002 107.185C20.1053 102.061 21.1553 85.5328 25.3607 76.1981C27.0049 72.5498 29.0675 69.9686 31.861 70.0687C34.618 70.166 35.7022 72.6755 36.1663 75.7718C36.9858 81.2198 35.7795 88.5461 35.6457 91.5295C35.5627 93.3998 35.0576 100.517 35.152 101.143C35.2697 101.927 35.8382 102.068 36.0276 102.1C36.1744 102.125 36.9119 102.198 37.1492 101.272C40.5407 88.0736 54.363 70.6434 71.1565 61.1269C87.8023 51.6939 107.432 50.0611 122.695 68.4849C123.067 68.9317 123.697 68.9846 124.103 68.6044C124.508 68.2216 124.536 67.5482 124.164 67.1014C108.171 47.7977 87.6186 49.3529 70.1801 59.2348C55.4828 67.5628 43.045 81.8245 37.4992 94.2624Z"
+                fill=""
+                stroke=""
+                stroke-width="2"
+              />
+              <path
+                fill-rule=""
+                clip-rule=""
+                d="M122.534 66.9558C120.213 66.5058 117.914 65.979 115.565 65.7209C109.307 65.0321 102.713 65.7328 96.9601 68.2655C96.4571 68.4884 96.2323 69.1102 96.4541 69.6549C96.6789 70.2016 97.2669 70.4632 97.768 70.2435C103.227 67.8363 109.489 67.1891 115.426 67.8431C118.115 68.1399 120.741 68.7943 123.407 69.2735C123.54 69.2956 124.694 69.5416 124.948 69.5222C125.542 69.4809 125.75 69.0567 125.822 68.8463C125.885 68.6714 125.92 68.4445 125.864 68.1639C125.817 67.9338 125.632 67.5164 125.275 67.0108C124.138 65.3877 120.991 61.9918 120.528 61.3777C115.216 54.3395 111.347 46.8746 107.094 39.1182C106.81 38.6043 106.198 38.4173 105.728 38.7021C105.257 38.9869 105.105 39.6364 105.386 40.1508C109.692 48.0058 113.62 55.5598 118.997 62.6827C119.314 63.1059 121.188 65.3499 122.534 66.9558Z"
+                fill=""
+                stroke=""
+                stroke-width="2"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_23_5">
+                <rect
+                  width="113"
+                  height="122"
+                  fill="white"
+                  transform="translate(27.782) rotate(13.163)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="panel--blobs__line2">
+          <svg
+            viewBox="0 0 66 66"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M9.19358 29.9627C8.71758 29.014 9.09165 27.8813 10.0291 27.4326L45.1265 10.6348C46.0639 10.1861 47.2097 10.5914 47.6857 11.5401C48.1617 12.4888 47.7876 13.6215 46.8502 14.0702L11.7528 30.8681C10.8154 31.3167 9.66958 30.9114 9.19358 29.9627Z"
+              fill="#19E7C8"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M14.9067 49.138C14.3012 48.3251 14.487 47.1483 15.3217 46.5094C18.8061 43.8427 22.2853 41.1261 25.7755 38.401C33.8112 32.1266 41.9055 25.8065 50.2562 19.944C51.1161 19.3404 52.2747 19.5316 52.8441 20.3709C53.4135 21.2103 53.178 22.3801 52.3182 22.9837C44.0524 28.7866 36.0883 35.0052 28.0901 41.2504C24.581 43.9905 21.0653 46.7357 17.5146 49.4531C16.6799 50.092 15.5123 49.9509 14.9067 49.138Z"
+              fill="#19E7C8"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M60.3173 27.308C61.0621 27.9666 61.0897 29.1469 60.3791 29.9444C53.2507 37.944 46.4425 46.1993 39.608 54.4867C36.8608 57.8179 34.1093 61.1543 31.331 64.4813C30.6464 65.301 29.4683 65.4543 28.6995 64.8236C27.9307 64.193 27.8624 63.0172 28.5469 62.1974C31.2892 58.9135 34.0199 55.6024 36.7558 52.285C43.6104 43.9733 50.4976 35.6221 57.6821 27.5595C58.3928 26.762 59.5726 26.6494 60.3173 27.308Z"
+              fill="#19E7C8"
+            />
+          </svg>
+        </div>
+
+        <!-- text -->
+        <div class="panel--text">
+          <span class="panel--text_span1 spans">&lthtml&gt</span>
+          <span class="panel--text_span2 spans">&ltbody&gt</span>
+          <span class="panel--text_span3 spans">&lth1&gt</span>
+          <h1 class="panel--text_1 headings">Hi,</h1>
+          <h1 class="panel--text_2 headings">
+            I'm Sihlanic Alin.<span>&lth1&gt</span>
+          </h1>
+          <h1 class="panel--text_3 headings">
+            <span>&ltp&gt</span> I build aesthetic things for the web.
+            <span>&lt/p&gt</span>
+          </h1>
+
+          <div class="panel--text_btn">
+            <a href="#" class="panel--text_btn-holder"
+              >Contact Me
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div class="scroll-down">
+            Scroll down
+            <div class="arrow"></div>
+          </div>
+        </div>
+      </div>
+
+      <section class="panel nav">ONE</section>
+      <section class="panel nav">TWO</section>
+      <section class="panel nav">THREE</section>
+      <section class="panel nav">FOUR</section>
+      <section class="panel nav">FIVE</section>
+    </div>
+
+    <!-- partial -->
+
+    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
+  </body>
+</html>
