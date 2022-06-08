@@ -40,31 +40,35 @@
               alt="logo"
             />
           </a>
-          <p>Web Developer</p>
+          <a href="#about" class="move tooltip"
+            >Web Developer
+            <span class="tooltiptext">Home Page</span>
+          </a>
         </div>
 
         <div class="header__nav--links-container">
           <ul class="header__nav--links">
             <li class="header__nav--links__item">
               <a
-                href="#About"
-                class="header__nav--links__item-a scroll-link"
+                href="#about"
+                class="header__nav--links__item-a scroll-link btn-scroll-into move"
                 data-text="About"
+                data-target="section-1"
                 ><span class="numbers">01.</span>About</a
               >
             </li>
             <li class="header__nav--links__item">
               <a
-                href="#Projects"
-                class="header__nav--links__item-a scroll-link"
+                href="#projects"
+                class="header__nav--links__item-a scroll-link move"
                 data-text="Projects"
                 ><span class="numbers">02.</span>Projects</a
               >
             </li>
             <li class="header__nav--links__item">
               <a
-                href="#Contact"
-                class="header__nav--links__item-a scroll-link"
+                href="#contact"
+                class="header__nav--links__item-a scroll-link move"
                 data-text="Contact"
                 ><span class="numbers">03.</span>Contact</a
               >
@@ -87,8 +91,8 @@
       </nav>
     </header>
 
-    <div class="container">
-      <div class="container--description panel">
+    <div id="panels-container" class="container">
+      <div class="section container--description panel">
         <!-- Header -->
 
         <div class="panel--blobs__1">
@@ -223,15 +227,26 @@
         </div>
       </div>
 
-      <section class="panel nav">ONE</section>
-      <section class="panel nav">TWO</section>
-      <section class="panel nav">THREE</section>
-      <section class="panel nav">FOUR</section>
-      <section class="panel nav">FIVE</section>
+      <section class="section panel nav line-1">
+        <a id="about"
+          >Spot you want to appear at top of page once link is clicked</a
+        >
+      </section>
+
+      <section class="section panel nav">
+        <a id="projects" class="line-2">Two</a>
+      </section>
+
+      <section class="section panel nav">
+        <a id="contact" class="line-3">Three</a>
+        THREE
+      </section>
     </div>
 
     <!-- partial -->
 
-    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
   </body>
 </html>

@@ -63,10 +63,38 @@ body {
       background-color: var(--color-tertiary);
       width: 100%;
       height: 100%;
-      p {
+
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+
+        & .tooltiptext {
+          visibility: hidden;
+          width: 120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px 0;
+          left: 0;
+          top: 0;
+          /* Position the tooltip */
+          position: absolute;
+          z-index: 1;
+          margin-top: 3rem;
+          font-size: font-size("font-size-supersmall");
+        }
+
+        &:hover .tooltiptext {
+          visibility: visible;
+        }
+      }
+
+      a {
         color: white;
         font-weight: font-weight("font-weight-bold");
-        font-size: font-size("font-size-small");
+        font-size: calc(0.8rem + 0.6vw);
         line-height: 1.5em;
         margin: 0.3em 0 1em 0;
       }
@@ -348,4 +376,70 @@ body {
       }
     }
   }
+}
+
+// #About {
+//   transform: translate(99.9432%) translate3d(1104.17px, 0px, 0px) !important ;
+
+//   visibility: hidden;
+//   position: relative;
+// }
+
+.retaltive {
+  position: relative;
+
+  &--1 {
+    transform: translate(100%) !important ;
+  }
+
+  // &--2 {
+  //   transform: translate(400.057%) translate3d(0px, 0px, 0px) !important;
+  // }
+  // &--3 {
+  //   transform: translate(300%) translate3d(0px, 0px, 0px) !important;
+  // }
+}
+
+.anchor-point {
+  position: absolute;
+  // top: -70px;
+  background-color: red;
+  // visibility: hidden;
+}
+
+//3
+// .absolute {
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   background-color: rgba(0, 0, 0, 0.112);
+//   transform: translate(-100px, -1000px);
+// }
+
+.absolute {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(233, 6, 6, 0.493);
+  transform: translate(-50%, -100%);
+  z-index: 100;
+}
+
+.panela {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#About {
+  z-index: 100;
+}
+
+.cover {
+  position: absolute;
+  height: 100%;
+  width: 400%;
+  display: block;
+  z-index: 999;
+  background-color: rgba(0, 255, 255, 0.119);
 }

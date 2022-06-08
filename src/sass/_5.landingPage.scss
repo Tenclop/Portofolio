@@ -1,7 +1,7 @@
 .container {
   -ms-scroll-chaining: none;
   overscroll-behavior: none;
-  width: 600%;
+  width: 400%;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -23,7 +23,7 @@
   padding: 10px;
   border-right: 2px solid var(--color-primary-m-s);
   padding-top: 1.5%;
-  padding-left: 2.2%;
+  padding-left: 3%;
 
   //div holder items
   &--text {
