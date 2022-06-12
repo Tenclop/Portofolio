@@ -43,3 +43,15 @@ a:visited {
 .numbers {
   color: var(--color-primary-m-s);
 }
+
+.ball {
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 3px solid var(--color-mouse-follower);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+}
