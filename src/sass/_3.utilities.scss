@@ -40,6 +40,10 @@ a:visited {
   font-size: font-size(font-size-mediumsmall);
 }
 
+::selection {
+  background-color: var(--color-selection);
+}
+
 .numbers {
   color: var(--color-primary-m-s);
 }

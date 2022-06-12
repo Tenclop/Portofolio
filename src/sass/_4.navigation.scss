@@ -276,6 +276,9 @@ body {
           font-size: font-size("font-size-regular");
         }
 
+        & .tooltip {
+          font-size: font-size("font-size-small2");
+        }
         &--logo {
           width: 100%;
           height: auto;
