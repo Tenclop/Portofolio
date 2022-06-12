@@ -31,7 +31,8 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "gsap": "^3.10.4"
+    "gsap": "^3.10.4",
+    "TagCloud": "^2.2.0"
   },
   "description": ""
 }
