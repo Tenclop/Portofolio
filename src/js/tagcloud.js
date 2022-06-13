@@ -14,6 +14,8 @@ const tagCloud = {
       "JSON",
       "Babel",
       "GSAP",
+      "Insomnia",
+      "Figma",
     ];
 
     const tagCloud = TagCloud(".about--container__sphere", myTags, {

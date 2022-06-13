@@ -50,11 +50,19 @@
 @import "4.navigation";
 @import "5.landingPage";
 @import "6.about";
+@import "7.projects";
 /* Placeholders */
 %flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+%flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 %bg {
