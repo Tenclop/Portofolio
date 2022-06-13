@@ -1432,7 +1432,7 @@ body {
     font-size: calc(0.6rem + 0.5vw);
   }
   .projects--container--showcase__project-img {
-    width: calc(12rem + 10vw);
+    width: calc(10rem + 10vw);
     height: calc(8rem + 8vh);
   }
 }
