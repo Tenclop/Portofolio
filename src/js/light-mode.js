@@ -5,7 +5,6 @@ const lightMode = {
   functionalityLightMode: () => {
     let checkbox = document.querySelector("input[name=theme]");
     let htmlElement = document.documentElement;
-    // const one = document.querySelector(".container--blobs__1");
 
     let logo = document.getElementById("img-logo");
     checkbox.addEventListener("change", () => {

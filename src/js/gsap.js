@@ -25,6 +25,18 @@ const animations = {
       xTo(e.clientX);
       yTo(e.clientY);
     });
+    /* gsap contact btn - to section */
+    document
+      .querySelector(".panel--text_btn-holder")
+      .addEventListener("click", () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: getPosition(".contact"),
+            autoKill: false,
+          },
+          duration: 1,
+        });
+      });
 
     /* Main navigation */
     let panelsSection = sections,

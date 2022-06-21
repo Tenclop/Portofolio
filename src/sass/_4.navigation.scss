@@ -380,43 +380,19 @@ body {
   }
 }
 
-// #About {
-//   transform: translate(99.9432%) translate3d(1104.17px, 0px, 0px) !important ;
-
-//   visibility: hidden;
-//   position: relative;
-// }
-
 .retaltive {
   position: relative;
 
   &--1 {
     transform: translate(100%) !important ;
   }
-
-  // &--2 {
-  //   transform: translate(400.057%) translate3d(0px, 0px, 0px) !important;
-  // }
-  // &--3 {
-  //   transform: translate(300%) translate3d(0px, 0px, 0px) !important;
-  // }
 }
 
 .anchor-point {
   position: absolute;
-  // top: -70px;
-  background-color: red;
-  // visibility: hidden;
-}
 
-//3
-// .absolute {
-//   position: absolute;
-//   height: 100%;
-//   width: 100%;
-//   background-color: rgba(0, 0, 0, 0.112);
-//   transform: translate(-100px, -1000px);
-// }
+  background-color: red;
+}
 
 .absolute {
   position: absolute;

@@ -27,13 +27,8 @@
 
   //div holder items
   &--text {
-    // position: absolute;
-    // top: 0;
-    // left: 0;
     width: 100%;
     height: 100%;
-    // padding-top: 10rem;
-    // padding-left: 20rem;
     max-width: 1500px;
     padding-left: 2rem;
     /* spans */
@@ -85,14 +80,7 @@
       @extend %flex-center;
       padding-right: 15%;
       position: relative;
-      //   &::before {
-      //     position: absolute;
-      //     content: url("../assets/BlobMain/Arrow-3.svg");
-      //     top: 7rem;
-      //     left: 14rem;
-      //     width: 100%;
-      //     height: 5rem;
-      //   }
+
       &-holder:link,
       &-holder:visited {
         padding: 2rem 1.7rem;
@@ -214,9 +202,9 @@
 
   &--blobs__line1 {
     position: absolute;
-    bottom: 25vh;
-    left: 40vw;
-    transform: translate(-40%, -30%);
+    bottom: 25%;
+    left: 35%;
+    transform: translate(-25%, -35%);
 
     & svg {
       width: 15vw;
@@ -340,8 +328,9 @@
     }
 
     &--blobs__line1 {
-      bottom: 45vh;
-      left: 35vw;
+      bottom: 45%;
+      left: 35%;
+      transform: translate(-45%, -35%);
     }
 
     &--blobs__line2 {
@@ -427,6 +416,7 @@
     &--blobs__2 {
       top: 12vh;
       left: 10vw;
+
       & svg {
         width: 25vw;
         height: 25vh;
@@ -444,8 +434,9 @@
     }
 
     &--blobs__line1 {
-      bottom: 40vh;
-      left: 25vw;
+      bottom: 45%;
+      left: 20%;
+      transform: translate(-45%, -20%);
       & svg {
         width: 20vw;
         height: 20vh;
@@ -453,8 +444,9 @@
     }
 
     &--blobs__line2 {
-      bottom: 40vh;
-      left: 65vw;
+      bottom: 38%;
+      left: 70%;
+      transform: translate(-38%, -70%) rotate(250deg);
     }
   }
 }
@@ -477,8 +469,9 @@
     }
 
     &--blobs__line1 {
-      bottom: 45vh;
-      left: 25vw;
+      bottom: 70%;
+      left: 70%;
+      transform: translate(-70%, -70%);
 
       & svg {
         width: 20vw;
@@ -487,8 +480,9 @@
     }
 
     &--blobs__line2 {
-      bottom: 45vh;
-      left: 70vw;
+      bottom: 0;
+      left: 120%;
+      transform: translate(0, -120%) rotate(250deg);
     }
   }
 }
