@@ -68,7 +68,10 @@
           width: calc(15rem + 20vw);
           height: calc(10rem + 12vh);
           min-width: 20rem;
-
+          overflow: hidden;
+          border-radius: 2rem;
+          transition: transform 0.5s ease-in-out;
+          backface-visibility: hidden;
           & svg {
             position: absolute;
             top: 0;
@@ -87,6 +90,10 @@
                   var(--color-selection)
                 ),
                 url("../assets/BlobProject/img-#{$img}.webp");
+
+              &:hover {
+                transform: scale(1.05);
+              }
             }
           }
 
