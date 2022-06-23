@@ -39,7 +39,7 @@ const projectContent = {
                       </h1>
 
                       <p>
-                        <span>&ltp&gt</span>As the name sais, it’s a dice game!
+                        <span>&ltp&gt</span>As the name says, it’s a dice game!
                         I made this to practice DOM manipulation and it ended
                         being something fun. <span>&lt/p&gt</span>
                       </p>
@@ -58,7 +58,7 @@ const projectContent = {
                   </h1>
 
                   <p>
-                    <span>&ltp&gt</span>As the name sais, it’s a dice game! I
+                    <span>&ltp&gt</span>As the name says, it’s a dice game! I
                     made this to practice DOM manipulation and it ended being
                     something fun. <span>&lt/p&gt</span>
                   </p>
@@ -102,7 +102,7 @@ const projectContent = {
                       <p>
                         <span>&ltp&gt</span>Bukovina it’s a brochure website
                         about mountain tourism. This project represents my first
-                        time when i worked with npm and webpack. Understanding
+                        time when I worked with npm and webpack. Understanding
                         how to use webpack third-party packages was a little
                         challenge.
                         <span>&lt/p&gt</span>
@@ -123,7 +123,7 @@ const projectContent = {
                   <p>
                     <span>&ltp&gt</span>Bukovina it’s a brochure website about
                     mountain tourism. This project represents my first time when
-                    i worked with npm and webpack. Understanding how to use
+                    I worked with npm and webpack. Understanding how to use
                     webpack third-party packages was a little challenge.
                     <span>&lt/p&gt</span>
                   </p>
