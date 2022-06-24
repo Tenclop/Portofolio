@@ -20,7 +20,7 @@
 ## About
  <p>This site is a short presentation of my skills gained during the learning experience. It includes some recent projects as well as some information about myself.
 I could say that this site is my business card. It was fun working on it because I had the opportunity to learn more gsap along the way, especially my new super scrolling power - ScrollTrigger.
-    <a href="https://sihlanic-portofolio.netlify.app">Link to demo. 🐱‍👓</a>
+    <a href="https://sihlanic-portfolio.netlify.app">Link to demo. 🐱‍👓</a>
 </p>
 
 
